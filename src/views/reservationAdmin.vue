@@ -2,13 +2,15 @@
 <template>
   <v-container>
     <v-btn
-    v-on:click="btnSearch">
+    @click="btnSearch">
       조회
     </v-btn>
-    <v-btn>
+    <v-btn
+    @click="btnReserveCancle">
       예약취소
     </v-btn>
-    <v-btn>
+    <v-btn
+    @click="btnReserveConfirm">
       예약확정
     </v-btn>
   </v-container>
@@ -26,6 +28,12 @@ export default {
       btnSearch(){
         alert("예약조회 버튼 클릭")
       },
+      btnReserveCancle(){
+        alert("예약취소 버튼 클릭")
+      },
+      btnReserveConfirm(){
+        alert("예약확정 버튼 클릭")
+      }
       
     }
 
