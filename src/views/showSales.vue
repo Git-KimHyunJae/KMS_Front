@@ -1,25 +1,14 @@
 <template>
   <v-container>
     <h1>매출관리화면</h1>
-   <v-chart></v-chart>
+    <div>이 화면에 그래프 써야함</div>
   </v-container>
-
 </template>
 
 <script>
-import Vue from 'vue'
-import Echart from 'vue-echarts'
-import 'echarts-gl'
-
 export default {
-  components:{
-    v-chart : Echart
-  }
-    name:'showSales'
-}
-
+  name: "showSales",
+};
 </script>
 
-<style>
-
-</style>
+<style></style>
